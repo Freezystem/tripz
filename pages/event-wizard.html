@@ -143,8 +143,13 @@
                                 <div class="tab-pane fade" id="pills-Where" role="tabpane3" aria-labelledby="pills-Where">.Where.</div>
                                 <div class="tab-pane fade " id="pills-What" role="tabpane4" aria-labelledby="pills-What">
                                   <div class="col-md-12 zone-activities">
-                                    <button type="button" class="btn btn-link">Paintball Ghost <span  class="clear"><i class="material-icons">highlight_off</i></span></button>
-                                    <button type="button" class="btn btn-link">Kite'Honor <span  class="clear"><i class="material-icons">highlight_off</i></span></button>
+                                    <button id="whatlabel-001" type="button" class="btn btn-link" style="display: none;">Paintball Ghost <span  class="clear"><i class="material-icons">highlight_off</i></span></button>
+                                    <button id="whatlabel-002" type="button" class="btn btn-link" style="display: none;">Paintball Fever <span  class="clear"><i class="material-icons">highlight_off</i></span></button>
+                                    <button id="whatlabel-003" type="button" class="btn btn-link" style="display: none;">Paintball Night <span  class="clear"><i class="material-icons">highlight_off</i></span></button>
+                                    <button id="whatlabel-004" type="button" class="btn btn-link" style="display: none;">Futbol <span  class="clear"><i class="material-icons">highlight_off</i></span></button>
+                                    <button id="whatlabel-005" type="button" class="btn btn-link" style="display: none;">Climb'and <span  class="clear"><i class="material-icons">highlight_off</i></span></button>
+                                    <button id="whatlabel-006" type="button" class="btn btn-link" style="display: none;">Paris Kanoë <span  class="clear"><i class="material-icons">highlight_off</i></span></button>
+                                    <button id="whatlabel-007" type="button" class="btn btn-link" style="display: none;">Kite'honor <span  class="clear"><i class="material-icons">highlight_off</i></span></button>
                                   </div>
                                   <form>
                                     <div class="form-group">
@@ -157,38 +162,38 @@
                                         </select>
                                     </div>
                                   </form>
-                                  <div class="col-md-3">
-                                    <div class="card paintball partner active-ds">
+                                  <div id="whatcard-001" class="col-md-3">
+                                    <div class="card paintball partner active-ds" aria-controls="whatlabel-001" aria-selected="false">
                                       <p class="text-center white title" > Paintball Ghost </p>
                                     </div>
                                   </div>
-                                  <div class="col-md-3">
-                                    <div class="card paintball02 partner">
+                                  <div id="whatcard-002" class="col-md-3">
+                                    <div class="card paintball02 partner" aria-controls="whatlabel-002" aria-selected="false">
                                       <p class="text-center white title" > Paintball Fever </p>
                                     </div>
                                   </div>
-                                  <div class="col-md-3">
-                                    <div class="card paintball03 partner ">
+                                  <div id="whatcard-003" class="col-md-3">
+                                    <div class="card paintball03 partner " aria-controls="whatlabel-003" aria-selected="false">
                                       <p class="text-center white title" > Paintball Night </p>
                                     </div>
                                   </div>
-                                  <div class="col-md-3">
-                                    <div class="card futbol partner">
-                                      <p class="text-center white title" > Futbol  </p>
+                                  <div id="whatcard-004" class="col-md-3">
+                                    <div class="card futbol partner" aria-controls="whatlabel-004" aria-selected="false">
+                                      <p class="text-center white title" > Futbol </p>
                                     </div>
                                   </div>
-                                  <div class="col-md-3">
-                                    <div class="card climb partner active">
+                                  <div id="whatcard-005" class="col-md-3">
+                                    <div class="card climb partner active" aria-controls="whatlabel-005" aria-selected="false">
                                       <p class="text-center white title" > Climb'and </p>
                                     </div>
                                   </div>
-                                  <div class="col-md-3">
-                                    <div class="card kanoe partner">
-                                      <p class="text-center white title" > Paris Kanoë</p>
+                                  <div id="whatcard-006" class="col-md-3">
+                                    <div class="card kanoe partner" aria-controls="whatlabel-006" aria-selected="false">
+                                      <p class="text-center white title" > Paris Kanoë </p>
                                     </div>
                                   </div>
-                                  <div class="col-md-3">
-                                    <div class="card kitesurf partner active-ds">
+                                  <div id="whatcard-007" class="col-md-3">
+                                    <div class="card kitesurf partner active-ds" aria-controls="whatlabel-007" aria-selected="false">
                                       <p class="text-center white title" > Kite'honor </p>
                                     </div>
                                   </div>
@@ -232,13 +237,6 @@
 <script src="../assets/js/material-dashboard.js?v=1.2.0"></script>
 <!-- Material Dashboard DEMO methods, don't include it in your project! -->
 <script src="../assets/js/demo.js"></script>
-<script type="text/javascript">
-    $(document).ready(function() {
-
-        // Javascript method's body can be found in assets/js/demos.js
-        demo.initDashboardPageCharts();
-        $('#pill-Who').tab('show')
-    });
-</script>
+<script type="text/javascript" src="../assets/js/event-wizard.js"></script>
 
 </html>

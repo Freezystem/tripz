@@ -8,8 +8,6 @@ $.cookie = function (name, value) {
   }
   else {
     obj[name] = value;
-    let d = new Date();
-    d.setTime(d.getTime() + (10*24*60*60*1000));
     document.cookie = "tripz=" + JSON.stringify(obj);
   }
 }

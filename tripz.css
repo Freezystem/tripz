@@ -1,0 +1,157 @@
+/* New stylesheet */
+.login{
+  background-color:white;
+  height:650px;
+  border-radius:15px;
+  padding:35px;
+}
+
+.title-login{
+  font-size:2rem;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+
+.sidebar .sidebar-background:after, .off-canvas-sidebar .sidebar-background:after {
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    content: "";
+    display: block;
+    background: #FFFFFF;
+    opacity: .70;
+}
+
+.center-block{
+  margin:0 auto;
+      float: inherit;
+}
+
+.form-group {
+    padding-bottom: 10px;
+    position: relative;
+    margin: 30px;
+}
+
+.notop{
+  top:0px !important;
+}
+
+.banner-cta{
+  margin-bottom: 30px;
+margin-top: 30px;
+border-radius: 6px;
+color: #333333;
+background: #fff;
+}
+
+.marginnoleft {
+    width: 100% !important;
+}
+
+.bg-profile{
+  background-image:url(../img/bg-profile.jpeg);
+  background-size:cover;
+  background-position:center center;
+  background-color:black;
+}
+
+.buttonlog{
+  color:white;
+}
+
+.buttonlog:hover{
+  color:white;
+}
+
+.form-check .form-check-label span {
+    display: block;
+    position: absolute;
+    left: -1px;
+    top: -8px;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
+.cta-plus{
+  padding:35px !important;
+}
+
+.btn.btn-success,
+.btn.btn-success:active:hover{
+  background-color:#09af00;
+  border: 0px solid;
+}
+
+.first-title{
+  font-size:2rem;
+}
+
+.wizard{
+  padding:35px !important;
+}
+
+.main-panel > .content {
+    margin-top: 25px;
+    padding: 30px 15px;
+    min-height: calc(100vh - 123px);
+}
+
+.title{
+  font-size:20px;
+  margin-top:20% !important;
+}
+
+.partner{
+  height:150px;
+}
+
+.white{
+  color:white;
+}
+
+.paintball{
+  background-image:url(../img/paintball.jpg);
+  background-size:cover;
+}
+
+.paintball02{
+  background-image:url(../img/paintball02.jpg);
+  background-size:cover;
+}
+
+.paintball03{
+  background-image:url(../img/paintball03.jpg);
+  background-size:cover;
+}
+
+.futbol{
+  background-image:url(../img/futbol.jpg);
+  background-size:cover;
+}
+
+.climb{
+  background-image:url(../img/climb.jpg);
+  background-size:cover;
+}
+
+.kanoe{
+  background-image:url(../img/canoe.jpg);
+  background-size:cover;
+}
+
+.kitesurf{
+  background-image:url(../img/kitesurf.jpg);
+  background-size:cover;
+}
+
+.active-ds{
+  box-shadow: 1px 2px 20px 5px rgba(0, 0, 0, 0.3);
+}
+
+.zone-activities{
+  background-color:#ededed;
+  padding:15px;
+  margin-bottom:25px;
+}

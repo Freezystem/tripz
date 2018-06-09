@@ -88,6 +88,10 @@ background: #fff;
   font-size:2rem;
 }
 
+.activenav{
+  font-weight:bold;
+}
+
 .wizard{
   padding:35px !important;
 }
@@ -96,6 +100,10 @@ background: #fff;
     margin-top: 25px;
     padding: 30px 15px;
     min-height: calc(100vh - 123px);
+}
+
+.navbarset{
+    padding-left:0px !important;
 }
 
 .title{
@@ -154,4 +162,8 @@ background: #fff;
   background-color:#ededed;
   padding:15px;
   margin-bottom:25px;
+}
+
+.bartop{
+  margin-top: 20px;
 }

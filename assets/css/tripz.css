@@ -108,11 +108,12 @@ background: #fff;
 
 .title{
   font-size:20px;
-  margin-top:20% !important;
+  margin-top:60px !important;
 }
 
 .partner{
   height:150px;
+  opacity:0.8;
 }
 
 .white{
@@ -154,8 +155,45 @@ background: #fff;
   background-size:cover;
 }
 
-.active-ds{
+.lieux01{
+  background-image:url(../img/lieux/lieux01.jpg);
+  background-size:cover;
+}
+
+.lieux02{
+  background-image:url(../img/lieux/lieux02.jpg);
+  background-size:cover;
+}
+
+.lieux03{
+  background-image:url(../img/lieux/lieux03.jpg);
+  background-size:cover;
+}
+
+.lieux04{
+  background-image:url(../img/lieux/lieux04.jpg);
+  background-size:cover;
+}
+
+.lieux05{
+  background-image:url(../img/lieux/lieux05.jpg);
+  background-size:cover;
+}
+
+.lieux06{
+  background-image:url(../img/lieux/lieux06.jpg);
+  background-size:cover;
+}
+
+.lieux07{
+  background-image:url(../img/lieux/lieux07.jpg);
+  background-size:cover;
+}
+
+
+div[aria-selected="true"]{
   box-shadow: 1px 2px 20px 5px rgba(0, 0, 0, 0.3);
+  opacity:1;
 }
 
 .zone-activities{

@@ -3,7 +3,7 @@ $(document).ready(function() {
   demo.initDashboardPageCharts();
   $('#pill-Who').tab('show');
 
-  $("#pills-What div.card").on("click", function (e) {
+  $("#pills-What div.card").click(function () {
     let labelId = $(this).attr("aria-controls"),
         isActive = $(this).attr("aria-selected") == "true";
 
@@ -15,5 +15,11 @@ $(document).ready(function() {
     }
 
     $(this).attr("aria-selected", !isActive);
+  });
+
+  $("#labelList button span.clear").click(function () {
+    let button = $(this).parent("button");
+    button.hide();
+    $("div[aria-controls='" + button.attr("id") + "']").attr("aria-selected", false);
   });
 });

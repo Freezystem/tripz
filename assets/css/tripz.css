@@ -205,3 +205,8 @@ div[aria-selected="true"]{
 .bartop{
   margin-top: 20px;
 }
+
+a h3:visited {
+  text-decoration: none;
+  color: black;
+}

@@ -245,3 +245,21 @@ div[aria-selected="true"]{
     white-space: nowrap;
     overflow: hidden;
 }
+.ellipsis-label{
+  width: 150px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.btn-nude,.btn-nude:focus,.btn-nude:hover{
+  background-color:transparent;
+  color:black;
+  box-shadow:none;
+}
+
+h3 .btn-nude{
+  font-size: 28px;
+  text-transform: inherit;
+  font-weight:300;
+}

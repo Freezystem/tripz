@@ -234,3 +234,10 @@ div[aria-selected="true"]{
 .logo{
   max-width: 100%;
 }
+
+.ellipsis{
+  width: 100px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}

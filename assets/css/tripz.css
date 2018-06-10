@@ -226,3 +226,11 @@ div[aria-selected="true"]{
 .titt{
   font-size:30px;
 }
+
+.big-title{
+  color:black;
+}
+
+.logo{
+  max-width: 100%;
+}

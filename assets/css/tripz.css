@@ -1,7 +1,7 @@
 /* New stylesheet */
 .login{
   background-color:white;
-  height:450px;
+  min-height:450px;
   border-radius:15px;
   padding:35px;
 }
@@ -204,4 +204,25 @@ div[aria-selected="true"]{
 
 .bartop{
   margin-top: 20px;
+}
+
+.banner-friends{
+  background-image:url(../img/bg-profile.jpeg);
+  background-size:cover;
+}
+
+.banner-height{
+  height:800px;
+  padding-top:15%;
+}
+
+.icon{
+  border:2px solid #9c27b0;
+  border-radius:99px;
+  width:150px;
+  height:150px;
+}
+
+.titt{
+  font-size:30px;
 }

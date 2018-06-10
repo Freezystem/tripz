@@ -231,8 +231,12 @@ div[aria-selected="true"]{
   color:black;
 }
 
-.logo{
+.logo-img{
   max-width: 100%;
+}
+
+.logo .logo-img {
+    max-width: 150px;
 }
 
 .ellipsis{
